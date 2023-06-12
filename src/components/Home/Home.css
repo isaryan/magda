@@ -1,0 +1,72 @@
+
+.Background {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+  } 
+  
+  .Background video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+    position: relative;
+  }
+
+  .content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  
+   .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5em;
+  }
+  
+  .Logo img {
+    width: 50%;
+  }
+
+  .link {
+    margin-top: 10vh;
+  }
+
+  .link a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (min-width: 1000px) {
+
+    .Background{
+      height:100vh;
+      overflow-y:hidden;
+    }
+
+    .Logo img {
+      width: 30%;
+    }      
+  }
+
+
+  @media only screen and (min-width: 450px) and (max-device-width: 450px) and (orientation: landscape), only screen and (min-width: 450px) and (max-device-height: 450px) and (orientation: landscape)
+{   
+    .Logo img {
+      width: 40%;
+    }   
+    
+  }

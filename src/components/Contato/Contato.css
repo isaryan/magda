@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.widget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+.widget .my-form {
+    position: relative;
+    height: 60%;
+}
+
+.socials {
+    position: absolute;
+    top: 85vh;
+}
+.insta {
+    height: 100%;
+    color: #a0a0a0;
+    cursor: pointer;
+}
+
+.insta:hover{
+    color: #000;
+}
