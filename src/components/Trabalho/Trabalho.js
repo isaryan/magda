@@ -18,6 +18,7 @@ const images = [
   { src: "https://i.ibb.co/KwDCvxY/mulheredoishomens-001.jpg", width: 3, height: 4 },
   { src: "https://i.ibb.co/W6QZFQC/mulherderoxo-001.jpg", width: 4, height: 4 },
   { src: "https://i.ibb.co/K7LGK4j/caro-001.jpg", width: 3, height: 4 },
+  { src: "https://i.ibb.co/ssdsKJ6/PHOTO-2023-05-09-02-30-58.jpg", width: 6, height: 3 },
 
 ];
 
